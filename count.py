@@ -14,7 +14,7 @@ def count_requests_for_domains(log_file, domain_file):
     return request_counts
 
 if __name__ == "__main__":
-    log_file = "access.log"  # Path to your Apache access log file
+    log_file = "/var/log/apache2/access.log"  # Path to your Apache access log file
     domain_file = "domains.txt"  # Path to the file containing the list of domains
 
     # Suppress warnings
