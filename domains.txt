@@ -1,0 +1,2 @@
+https://www.example.com
+https://sub.domain.com
