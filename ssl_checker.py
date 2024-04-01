@@ -17,7 +17,7 @@ def check_ssl(subdomain):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python script.py domains.txt")
+        print("run this command : python3 ssl_checker.py domains.txt")
         sys.exit(1)
 
     filename = sys.argv[1]
